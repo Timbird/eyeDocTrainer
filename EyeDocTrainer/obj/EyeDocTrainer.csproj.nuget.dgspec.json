@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timot\\source\\repos\\EyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj": {}
+    "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timot\\source\\repos\\EyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj": {
+    "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timot\\source\\repos\\EyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj",
+        "projectUniqueName": "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj",
         "projectName": "EyeDocTrainer",
-        "projectPath": "C:\\Users\\timot\\source\\repos\\EyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj",
+        "projectPath": "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj",
         "packagesPath": "C:\\Users\\timot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timot\\source\\repos\\EyeDocTrainer\\EyeDocTrainer\\obj\\",
+        "outputPath": "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\timot\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
