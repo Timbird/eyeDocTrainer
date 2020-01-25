@@ -15,15 +15,42 @@ namespace EyeDocTrainer.Controllers
             return View();
         }
         
-        public IActionResult Scene()
+        public IActionResult Scene(Scene model = null)
         {
-            var model = new Scene();
+            if(model.Description == null)
+            {
+                var decision1 = new Decision
+                {
+                    Text = "use glue",
+                    WillFail = false
+                };
+                var decision2 = new Decision
+                {
+                    Text = "use ALL the glue",
+                    WillFail = false
+                };
+                model = new Scene
+                {
+                    Timer = 0,
+                    nextSceneLink = Url.Action("GameFinish", "Game"),
+                    Description = "This is the first decision",
+                    Decisions = new List<Decision>()
+                };
+                model.Decisions.Add(decision1);
+                model.Decisions.Add(decision2);
+            }
+            
             return View(model);
         }
 
-        public IActionResult Scene(Scene scene)
+        public IActionResult GameOver()
         {
-            return View(scene);
+            return View();
+        }
+
+        public IActionResult GameFinish()
+        {
+            return View();
         }
     }
 }

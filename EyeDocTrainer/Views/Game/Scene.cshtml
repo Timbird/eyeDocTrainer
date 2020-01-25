@@ -1,1 +1,17 @@
-﻿@Model 
+﻿@model Scene
+
+<p>time took: @Model.Timer</p>
+
+This is a gamescreen
+
+<ul>
+@foreach(Decision decision in Model.Decisions)
+{
+    var link = Url.Action("GameOver","Game");
+    if (!decision.WillFail)
+    {
+        link = Model.nextSceneLink;
+    }
+    <li><a href="@link">@decision.Text </a></li>
+}
+</ul>
