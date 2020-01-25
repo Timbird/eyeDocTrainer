@@ -22,7 +22,7 @@ namespace EyeDocTrainer.Controllers
                 var decision1 = new Decision
                 {
                     Text = "use glue",
-                    WillFail = false
+                    WillFail = true
                 };
                 var decision2 = new Decision
                 {
@@ -32,7 +32,7 @@ namespace EyeDocTrainer.Controllers
                 model = new Scene
                 {
                     Timer = 0,
-                    nextSceneLink = Url.Action("GameFinish", "Game"),
+                    NextSceneLink = Url.Action("GameFinish", "Game"),
                     Description = "This is the first decision",
                     Decisions = new List<Decision>()
                 };

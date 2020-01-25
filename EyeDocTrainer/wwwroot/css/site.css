@@ -63,9 +63,19 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 90px;
+    font-size: 1.5em;
+}
+
+
+.main-border{
+    border: 10px solid blue;
+}
+
+.btn-spacer{
+    padding: 1em;
 }

@@ -10,7 +10,7 @@ This is a gamescreen
     var link = Url.Action("GameOver","Game");
     if (!decision.WillFail)
     {
-        link = Model.nextSceneLink;
+        link = Model.NextSceneLink;
     }
     <li><a href="@link">@decision.Text </a></li>
 }
