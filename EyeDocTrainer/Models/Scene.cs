@@ -7,9 +7,10 @@ namespace EyeDocTrainer.Models
 {
     public class Scene
     {
+        public int Id {get;set;}
         public int Timer { get; set; }
         public string Description { get; set; }
+        public string? LinkToImage { get; set; }
         public List<Decision> Decisions { get; set; }
-        public string NextSceneLink { get; set; }
     }
 }

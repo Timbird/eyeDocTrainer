@@ -32,7 +32,6 @@ namespace EyeDocTrainer.Controllers
                 model = new Scene
                 {
                     Timer = 0,
-                    NextSceneLink = Url.Action("GameFinish", "Game"),
                     Description = "This is the first decision",
                     Decisions = new List<Decision>()
                 };
