@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeDocTrainer", "EyeDocTrainer\EyeDocTrainer.csproj", "{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06C59C6-C6E6-41C1-9FB8-0C75F2CDC6F2}
+	EndGlobalSection
+EndGlobal
