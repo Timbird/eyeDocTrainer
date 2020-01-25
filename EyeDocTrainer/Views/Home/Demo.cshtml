@@ -1,14 +1,22 @@
 ﻿
-<p>This is a demo</p>
-
-<div class="timer-container">
-    <div class="timer float-right">
-
+<div class="d-flex flex-column">
+    <div class="timer-container">
+        <div class="timer float-right">
+            These Action takes time, try for the shortest times -><img width="110" height="85" src="~/Images/Clock/ClockOneQuater.png"></img>
+        </div>
     </div>
-</div>
 
-<div class="description"> <p>Below you will be presented with a situations and will have to choose the correct outcome</p></div>
 
-<div class="btn-spacer">
-    <a class="btn btn-primary btn-lg" asp-area="" asp-controller="Home" asp-action="Index">Go Back</a>
+    <div class="d-flex flex-row">
+        <img width="680" height="490" src="~/Images/demo_photo.jpg" />    
+        <div class="d-flex flex-column">
+            <button class="btn btn-spacer btn-warning">Action</button>
+            <button class="btn btn-spacer btn-warning">Another Action</button>
+            <button class="btn btn-spacer btn-warning">Final Action</button>
+        </div>
+    </div>
+    <div class="sistuation-text">
+        <p>Below you will be presented with a situations and will have to choose the correct outcome. The buttons may be embedded in the photo.</p>
+    </div>
+    <div><a class="btn btn-spacer btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Go Back</a></div>
 </div>

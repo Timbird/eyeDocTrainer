@@ -10,12 +10,17 @@
         "projectUniqueName": "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj",
         "projectName": "EyeDocTrainer",
         "projectPath": "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\EyeDocTrainer.csproj",
-        "packagesPath": "C:\\Users\\timot\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\TandG\\.nuget\\packages\\",
         "outputPath": "C:\\WebApps\\eyeDocTrainer\\EyeDocTrainer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\timot\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\TandG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

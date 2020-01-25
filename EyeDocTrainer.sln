@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EyeDocTrainer", "EyeDocTrainer\EyeDocTrainer.csproj", "{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{EAE043FC-DAFF-4124-B13A-207AB28CA020}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82ACEBCD-AA6F-4AC3-87F1-519A1E8F5AFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAE043FC-DAFF-4124-B13A-207AB28CA020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAE043FC-DAFF-4124-B13A-207AB28CA020}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAE043FC-DAFF-4124-B13A-207AB28CA020}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAE043FC-DAFF-4124-B13A-207AB28CA020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
