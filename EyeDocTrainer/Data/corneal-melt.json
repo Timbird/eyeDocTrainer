@@ -1,0 +1,13 @@
+{'title': 'Corneal Melt',
+ 'will-pass': True,
+ 'correct-set': ['take sterile glove',
+  'create sterile disk from glove',
+  'put antibiotic ointment on cotton pad',
+  'pick up steril disk',
+  'put glue on cornea',
+  'stick disk on cornea',
+  'bandage contact lense',
+  'antibiotic eye drop',
+  'clean up'],
+ 'bogus-items': ['Glue disk on cornea ', 'Wipe Eyes', 'cotton bud sterile'],
+ 'penalty-codes': [10, 3, 1]}
