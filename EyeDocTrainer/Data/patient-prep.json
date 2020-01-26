@@ -1,13 +1,11 @@
-scene2 = {
-    'title' : 'Patient Prep',
-    'will-pass' : True,
-    'correct-set' : ['Surgeons : wash hands, put on sterile gown, put on sterile gloves', 
-                     'Anaesthetic drops ( proxymetacaine 1st and tetracaine drops 2nd )', 
-                     'Povidone eye drops', 
-                     'surgeons : prepare the antibiotics', 
-                     'Clean skin around the eye with povidone', 
-                     'Drape eye with sterile drape' , 
-                     'Put speculum in to keep eye open'],
-     'bogus-items' : ['Inject Eyes ', 'Sluice Eyes', 'Wipe Eye with Tissue'],
-    'penalty-codes' : [10, 3, 1]
-}
+{'title': 'Patient Prep',
+ 'will-pass': True,
+ 'correct-set': ['Surgeons : wash hands, put on sterile gown, put on sterile gloves',
+  'Anaesthetic drops ( proxymetacaine 1st and tetracaine drops 2nd )',
+  'Povidone eye drops',
+  'surgeons : prepare the antibiotics',
+  'Clean skin around the eye with povidone',
+  'Drape eye with sterile drape',
+  'Put speculum in to keep eye open'],
+ 'bogus-items': ['Inject Eyes ', 'Sluice Eyes', 'Wipe Eye with Tissue'],
+ 'penalty-codes': [10, 3, 1]}
