@@ -9,6 +9,7 @@ namespace EyeDocTrainer.Models
     {
         public string? Text { get; set; }
         public bool WillFail { get; set; }
-        public int? NextSceneID { get; set; }
+        public string? NextScene { get; set; }
+        public int TimeTaken { get; set; }
     }
 }

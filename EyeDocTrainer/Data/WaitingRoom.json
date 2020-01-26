@@ -1,0 +1,25 @@
+{
+  "Name": "WaitingRoom",
+  "Timer": 0,
+  "Description": "You have entered the patient room",
+  "Decisions": [
+     {
+      "Text": "Case Note 1",
+      "WillFail": false,
+      "NextScene": "Consultation",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Case Note 2",
+      "WillFail": true,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Case Note 3",
+      "WillFail": true,
+      "NextScene": "",
+      "TimeTaken": 1
+    }
+  ]
+}
