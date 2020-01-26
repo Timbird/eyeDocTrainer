@@ -1,0 +1,25 @@
+{
+  "Name": "Consultation Room",
+  "Timer": 1,
+  "Description": "Mr Jones has come in with a very red, painful eye with blurred vision since yesterday, he had cataract surgery last week",
+  "Decisions": [
+    {
+      "Text": "History",
+      "WillPass": true,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "He's alright",
+      "WillPass": true,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Photo",
+      "WillPass": false,
+      "NextScene": "Diagnosis",
+      "TimeTaken": 1
+    }
+  ]
+}

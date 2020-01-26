@@ -8,7 +8,7 @@ This is a gamescreen
 @foreach(Decision decision in Model.Decisions)
 {
     var link = Url.Action("GameOver","Game");
-    if (!decision.WillFail)
+    if (decision.WillPass)
     {
         link = decision.NextScene;
     }

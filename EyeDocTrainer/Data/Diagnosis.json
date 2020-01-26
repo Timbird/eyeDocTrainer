@@ -2,7 +2,6 @@
   "Name": "WaitingRoom",
   "Timer": 0,
   "Description": "You have entered the patient room",
-  "LinkToImage": "~/Images/scene/WaitingRoom.jpg",
   "Decisions": [
     {
       "Text": "Case Note 1",
