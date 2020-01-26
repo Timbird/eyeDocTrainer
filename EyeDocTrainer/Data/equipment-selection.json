@@ -1,0 +1,13 @@
+{'title': 'Equipment Selection',
+ 'will-pass': True,
+ 'correct-set': ['Surgical Gown',
+  'Sterile Glove',
+  'Proxymetacaine',
+  'Tetracine',
+  'Providine Iodine',
+  'Amilacin',
+  'Vancomycin',
+  'Videne',
+  'Injection Pack'],
+ 'bogus-items': ['swab', 'tweezers', 'nasty-fluid'],
+ 'penalty-codes': [1, 3, 10]}
