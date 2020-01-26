@@ -3,7 +3,7 @@
   "Timer": 0,
   "Description": "You have entered the patient room",
   "Decisions": [
-    {
+     {
       "Text": "Case Note 1",
       "WillFail": false,
       "NextScene": "Consultation",
