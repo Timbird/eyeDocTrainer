@@ -1,0 +1,8 @@
+{'title': 'Lid Laceration',
+ 'will-pass': True,
+ 'correct-set': ['inject subcutaneous anaesthetic into skin',
+  'suture',
+  'put antibiotic eye ointment',
+  'clean up'],
+ 'bogus-items': ['Glue disk on cornea ', 'Wipe Eyes', 'cotton bud sterile'],
+ 'penalty-codes': [10, 3, 1]}
