@@ -1,0 +1,1 @@
+"{\"symptom\": \"endophthalmitis\", \"will-pass\": true, \"correct-set\": [\"AC tap\", \"vitreous tap\", \"inject antibiotics x 2 into vitreous cavity\", \"antibiotic eye drop\", \"clean-up\"], \"bogus-items\": [\"swab\", \"tweezers\", \"nasty-fluid\"], \"penalty-codes\": [1, 3, 10]}"
