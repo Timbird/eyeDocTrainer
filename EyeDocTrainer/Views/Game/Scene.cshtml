@@ -1,17 +1,31 @@
 ﻿@model Scene
 
-<p>time took: @Model.Timer</p>
 
-This is a gamescreen
+<div class="d-flex flex-column">
+    <div class="timer-container">
+        <div class="timer float-right">
+            These Action takes time, try for the shortest times -><img width="110" height="85" src="~/Images/Clock/ClockOneQuater.png" />
+        </div>
+    </div>
 
-<ul>
-@foreach(Decision decision in Model.Decisions)
-{
-    var link = Url.Action("GameOver","Game");
-    if (!decision.WillFail)
-    {
-        link = decision.NextScene;
-    }
-    <li><a href="@link">@decision.Text </a></li>
-}
-</ul>
+
+    <div class="d-flex flex-row">
+        <img width="680" src="@Model.LinkToImage" />
+        <div class="d-flex flex-column">
+            @foreach (Decision decision in Model.Decisions)
+            {
+                var link = Url.Action("GameOver", "Game");
+                if (!decision.WillFail)
+                {
+                    link = decision.NextScene;
+                }
+                <a class="btn btn-spacer btn-warning" href="@link">@decision.Text </a>
+            }
+            
+        </div>
+    </div>
+    <div class="sistuation-text">
+        <p>Below you will be presented with a situations and will have to choose the correct outcome. The buttons may be embedded in the photo.</p>
+    </div>
+    <div><a class="btn btn-spacer btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Go Back</a></div>
+</div>
