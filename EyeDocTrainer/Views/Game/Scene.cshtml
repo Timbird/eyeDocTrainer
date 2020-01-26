@@ -14,11 +14,12 @@
         <div class="d-flex flex-column">
             @foreach (Decision decision in Model.Decisions)
             {
-                var link = Url.Action("GameOver", "Game");
+                var link = Url.Action("GameOver", "Game",new { failureReason = decision.FailureReason });
                 if (!decision.WillFail)
                 {
                     link = decision.NextScene;
                 }
+
                 <a class="btn btn-spacer btn-warning" href="@link">@decision.Text </a>
             }
             

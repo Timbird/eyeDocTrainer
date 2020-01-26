@@ -13,6 +13,7 @@
     {
       "Text": "Case Note 2",
       "WillFail": true,
+      "FailureReason":  "This was a stupid thing to do",
       "NextScene": "",
       "TimeTaken": 1
     },
