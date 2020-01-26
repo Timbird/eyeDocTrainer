@@ -1,23 +1,25 @@
 {
-  "Name": "WaitingRoom",
-  "Timer": 0,
-  "Description": "You have entered the patient room",
+  "Name": "Diagnosis",
+  "Timer": 1,
+  "Description": "Choose the correct diagnosis",
+  "LinkToImage": "../../Images/Scene/eye.jpg",
   "Decisions": [
     {
-      "Text": "Case Note 1",
+      "Text": "Endophthalmitis",
+      "WillPass": true,
+      "NextScene": "Proc_select",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Corneal Melt",
       "WillPass": false,
-      "NextScene": "Consultation",
-      "TimeTaken": 1
-    },
-    {
-      "Text": "Case Note 2",
-      "WillPass": true,
       "NextScene": "",
-      "TimeTaken": 1
+      "TimeTaken": 1,
+      "FailureReason" :  "Check the anterior chamber"
     },
     {
-      "Text": "Case Note 3",
-      "WillPass": true,
+      "Text": "Lid Laceration",
+      "WillPass": false,
       "NextScene": "",
       "TimeTaken": 1
     }

@@ -10,5 +10,7 @@ namespace EyeDocTrainer.Models
 
         public int Timer { get; set; }
         public bool HasFailed { get; set; }
+        public List<string> MinorFails { get; set; }
+
     }
 }

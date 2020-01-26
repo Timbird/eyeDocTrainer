@@ -4,29 +4,58 @@
 <div class="d-flex flex-column">
     <div class="timer-container">
         <div class="timer float-right">
-            These Action takes time, try for the shortest times -><img width="110" height="85" src="~/Images/Clock/ClockOneQuater.png" />
+            @{ 
+                var timeimage = "";
+                if(Model.Timer == 0)
+                {
+                    timeimage = "../../Images/Clock/ClockEmpty.png";
+                }
+                if(Model.Timer == 1)
+                {
+                    timeimage = "../../Images/Clock/ClockOneQuater.png";
+                }
+                if(Model.Timer == 2)
+                {
+                    timeimage = "../../Images/Clock/ClockHalf.png";
+                }
+                if(Model.Timer == 3)
+                {
+                    timeimage = "../../Images/Clock/ClockThreeQuaters.png";
+                }
+                if(Model.Timer == 4)
+                {
+                    timeimage = "../../Images/Clock/ClockFull.png";
+                }
+            }
+            <img width="110" height="85" src="@timeimage" />
         </div>
     </div>
 
 
     <div class="d-flex flex-row">
-        <img width="680" src="@Model.LinkToImage" />
+        <img width="400" src="@Model.LinkToImage" />
         <div class="d-flex flex-column">
             @foreach (Decision decision in Model.Decisions)
             {
                 var link = Url.Action("GameOver", "Game",new { failureReason = decision.FailureReason });
-                if (!decision.WillFail)
+                
+                if (decision.WillPass)
                 {
-                    link = decision.NextScene;
+                    link = Url.Action("Scene", "Game", new { pathToScene = decision.NextScene });
+                }
+                if(decision.NextScene == "end")
+                {
+                    link = Url.Action("GameFinish", "Game");
                 }
 
                 <a class="btn btn-spacer btn-warning" href="@link">@decision.Text </a>
+                
+                
             }
             
         </div>
     </div>
     <div class="sistuation-text">
-        <p>Below you will be presented with a situations and will have to choose the correct outcome. The buttons may be embedded in the photo.</p>
+        <p>@Model.Description</p>
     </div>
-    <div><a class="btn btn-spacer btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Go Back</a></div>
 </div>

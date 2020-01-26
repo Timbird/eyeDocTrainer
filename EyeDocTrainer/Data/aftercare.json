@@ -1,13 +1,13 @@
 {
-  "Name": "WaitingRoom",
-  "Timer": 0,
-  "Description": "You have entered the patient room",
-  "LinkToImage": "../../Images/Scene/WaitingRoom.jpg",
+  "Name": "aftercare",
+  "Timer": 3,
+  "Description": "Welldone on the tap and inject, now what would you like to do for the patient?  Have you finished?",
+  "LinkToImage": "../../Images/Scene/AfterCare.jpg",
   "Decisions": [
     {
       "Text": "Case Note 1",
       "WillPass": true,
-      "NextScene": "Consultation",
+      "NextScene": "sample",
       "TimeTaken": 1
     },
     {

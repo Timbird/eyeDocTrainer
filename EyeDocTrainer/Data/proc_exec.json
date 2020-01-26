@@ -1,13 +1,13 @@
 {
-  "Name": "WaitingRoom",
-  "Timer": 0,
-  "Description": "You have entered the patient room",
-  "LinkToImage": "../../Images/Scene/WaitingRoom.jpg",
+  "Name": "proc_exec",
+  "Timer": 2,
+  "Description": "Please tap and inject the eye in the correct order",
+  "LinkToImage": "../../Images/Scene/construction.png",
   "Decisions": [
     {
       "Text": "Case Note 1",
       "WillPass": true,
-      "NextScene": "Consultation",
+      "NextScene": "aftercare",
       "TimeTaken": 1
     },
     {

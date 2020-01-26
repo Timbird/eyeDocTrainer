@@ -1,13 +1,13 @@
 {
-  "Name": "WaitingRoom",
-  "Timer": 0,
-  "Description": "You have entered the patient room",
-  "LinkToImage": "../../Images/Scene/WaitingRoom.jpg",
+  "Name": "gov",
+  "Timer": 4,
+  "Description": "Please notify the infection control team of the case",
+  "LinkToImage": "../../Images/Scene/Goverance.jpg",
   "Decisions": [
     {
       "Text": "Case Note 1",
       "WillPass": true,
-      "NextScene": "Consultation",
+      "NextScene": "end",
       "TimeTaken": 1
     },
     {

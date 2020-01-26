@@ -1,0 +1,26 @@
+{
+  "Name": "Proc_select",
+  "Timer": 1,
+  "Description": "What would you like to do?",
+  "LinkToImage": "../../Images/Scene/CombinedProcedures.png",
+  "Decisions": [
+    {
+      "Text": "Lid Suture",
+      "WillPass": false,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Corneal Glue",
+      "WillPass": false,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Tap and Inject",
+      "WillPass": true,
+      "NextScene": "Prep_room",
+      "TimeTaken": 1
+    }
+  ]
+}

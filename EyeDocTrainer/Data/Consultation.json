@@ -1,23 +1,24 @@
 {
   "Name": "Consultation Room",
   "Timer": 1,
-  "Description": "Mr Jones has come in with a very red, painful eye with blurred vision since yesterday, he had cataract surgery last week",
+  "Description": "Mrs Jones has come in with a very red, painful eye with blurred vision since yesterday, she had cataract surgery last week",
+  "LinkToImage": "../../Images/Scene/Patient.jpg",
   "Decisions": [
     {
       "Text": "History",
-      "WillPass": true,
-      "NextScene": "",
-      "TimeTaken": 1
-    },
-    {
-      "Text": "He's alright",
-      "WillPass": true,
-      "NextScene": "",
-      "TimeTaken": 1
-    },
-    {
-      "Text": "Photo",
       "WillPass": false,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "She's alright",
+      "WillPass": false,
+      "NextScene": "",
+      "TimeTaken": 1
+    },
+    {
+      "Text": "Let's check the Photo",
+      "WillPass": true,
       "NextScene": "Diagnosis",
       "TimeTaken": 1
     }

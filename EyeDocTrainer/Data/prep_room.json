@@ -1,13 +1,13 @@
 {
-  "Name": "WaitingRoom",
-  "Timer": 0,
-  "Description": "You have entered the patient room",
-  "LinkToImage": "../../Images/Scene/WaitingRoom.jpg",
+  "Name": "prep_room",
+  "Timer": 1,
+  "Description": "Gather all the stuff you need and put them in an order of use, becareful you don't want to have to cross hands on the table during the procedure",
+  "LinkToImage": "../../Images/Scene/construction.png",
   "Decisions": [
     {
       "Text": "Case Note 1",
       "WillPass": true,
-      "NextScene": "Consultation",
+      "NextScene": "prep_patient",
       "TimeTaken": 1
     },
     {
