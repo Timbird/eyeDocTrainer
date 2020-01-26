@@ -12,7 +12,7 @@
     },
     {
       "Text": "Case Note 2",
-      "WillPass": true,
+      "WillFail": true,
       "NextScene": "",
       "TimeTaken": 1
     },

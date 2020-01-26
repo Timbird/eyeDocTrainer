@@ -11,5 +11,7 @@ namespace EyeDocTrainer.Models
         public bool WillPass { get; set; }
         public string? NextScene { get; set; }
         public int TimeTaken { get; set; }
+
+        public string FailureReason { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace EyeDocTrainer.Models
         public string Name {get;set;}
         public int Timer { get; set; }
         public string Description { get; set; }
-        public string? LinkToImage { get; set; }
+        public string LinkToImage { get; set; }
         public List<Decision> Decisions { get; set; }
     }
 }

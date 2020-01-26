@@ -25,9 +25,9 @@ namespace EyeDocTrainer.Controllers
             return View(model);
         }
 
-        public IActionResult GameOver()
+        public IActionResult GameOver(string failureReason)
         {
-            return View();
+            return View((object)failureReason);
         }
 
         public IActionResult GameFinish()
